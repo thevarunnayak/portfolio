@@ -2,9 +2,9 @@ import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { GridBackgroundDemo } from './ui/Background'
 import { TextGenerateEffect } from './ui/TextGenerate'
-import heroData from '../public/locales/en/hero.json' assert { type: 'json' }
 import MagicButton from './MagicButton'
 import { FaLocationArrow } from 'react-icons/fa6'
+import { heroData } from '@/data'
 
 const Hero = () => {
   return (

@@ -8,8 +8,8 @@ export function GridBackgroundDemo() {
         className={cn(
           "absolute inset-0",
           "[background-size:50px_40px]",
-          "[background-image:linear-gradient(to_right,#e4e4e7_1px,transparent_1px),linear-gradient(to_bottom,#e4e4e7_1px,transparent_1px)]",
-          "dark:[background-image:linear-gradient(to_right,#2626226f_1px,transparent_1px),linear-gradient(to_bottom,#262626_1px,transparent_1px)]",
+          "[background-image:linear-gradient(to_right,#e4e4e72a_1px,transparent_1px),linear-gradient(to_bottom,#e4e4e72a_1px,transparent_1px)]",
+          "dark:[background-image:linear-gradient(to_right,#e4e4e72a_1px,transparent_1px),linear-gradient(to_bottom,#e4e4e72a_1px,transparent_1px)]",
         )}
       />
       {/* Radial gradient for the container to give a faded look */}
